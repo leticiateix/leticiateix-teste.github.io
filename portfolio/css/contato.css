@@ -1,0 +1,105 @@
+.formulario-container {
+  margin-top: -20px;
+  background: #202020;
+}
+
+.footer {
+  background: #ffffff;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #ffffff;
+}
+
+.footer-contato {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.footer-contato li {
+  margin-top: 50px;
+  width: 2%;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer-copy {
+  grid-column: 1 / -1;
+  font-size: 1.125rem;
+  color: #000000;
+  text-align: center;
+}
+
+.formulario-conteudo h2 {
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 5px;
+  color: #ffffff;
+}
+
+.formulario strong {
+  color: #f8dbd6;
+}
+
+.formulario input {
+  border: 1px solid #a03c2b;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.formulario textarea {
+  border: 1px solid #a03c2b;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.formulario input.formulario-submit {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background-color: #ce9a90;
+  padding: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.formulario input.formulario-submit:hover {
+  background-color: #bd786c;
+}
+
+/* Estilos para o conteúdo do formulário */
+.formulario-conteudo {
+  background-color: #651d18;
+  margin: 2.5% auto;
+  padding: 30px;
+  width: 50%;
+  max-width: 400px;
+  position: relative;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato li {
+    font-size: 1.5rem;
+  }
+}
